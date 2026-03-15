@@ -1,2 +1,2 @@
 # Fasika-News
-It is a news website
+It is a news  website
