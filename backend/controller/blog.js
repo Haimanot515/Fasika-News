@@ -76,7 +76,11 @@ exports.deleteBlog = async (req, res) => {
     }
 
     res.status(200).json({ message: 'Blog deleted successfully' });
+ Haimanot/rebasingNew
   } catch  (error) {
+=======
+  } catch (error) {
+develop
     console.error(error);
     res.status(500).json({ message: 'Server error while deleting blog' });
   }
