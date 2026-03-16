@@ -1,3 +1,12 @@
+ Haimanot/rebasingNew
+const express = require("express");
+const router = express.Router();
+const { homeController } = require("../controllers/homeController");
+
+router.get("/", homeController);
+
+module.exports = router;
+=======
 // controllers/homeController.js
 
 const News = require('../models/News');
@@ -29,3 +38,4 @@ exports.getHomeData = async (req, res) => {
     res.status(500).json({ message: 'Server error fetching home data' });
   }
 };
+ develop
